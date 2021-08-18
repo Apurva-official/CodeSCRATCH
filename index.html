@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>CodeSCRATCH -Best Platform for coders</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        .navbar-brand {
+            font-family: 'Bubblegum Sans', cursive;
+            color: black;
+        }
+        
+        .carouselExampleFade {
+            position: absolute;
+        }
+        
+        .carousel-item {
+            height: 25em;
+        }
+        
+        .container-fluid {
+            color: darkgreen;
+        }
+        
+        .container1 .navbar-brand1 {
+            display: flex;
+            color: white;
+            text-decoration: none;
+            width: 100%;
+            margin: auto;
+        }
+        
+        .navbar-brand1 p,
+        .btn {
+            padding: 4px;
+            margin: 4px;
+        }
+        
+        .modal-title {
+            font-family: 'Satisfy', cursive;
+        }
+        
+        .modal-body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .container {
+            display: flexbox;
+        }
+        
+        .container-card-item {
+            display: inline-flex;
+            flex-wrap: wrap;
+            flex-grow: 50%;
+        }
+        
+        .card {
+            width: 100%;
+            margin: 20px;
+            padding: 10px;
+            box-shadow: 0px 0.5px 2px 1px gray;
+        }
+        
+        .card:nth-child(even) {
+            background-color: whitesmoke;
+        }
+        
+        .nav-item {
+            color: blue;
+            display: flexbox;
+        }
+        
+        .navbar-nav {
+            color: blue;
+            display: inline-block;
+        }
+        
+        .nav-item-nav {
+            display: block;
+            width: 100%;
+            color: black;
+        }
+        
+        #navnav {
+            display: inline-flex;
+            width: 28em;
+            margin: auto;
+            font-size: large;
+        }
+        
+        .card-title {
+            font-size: 1.1rem;
+        }
+        
+        .card-text {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 0.8rem;
+        }
+        
+        .navbar-expand-lg {
+            box-sizing: border-box;
+        }
+        
+        .navbar-toggler-icon {
+            padding: 2px;
+            display: inline-block;
+            width: 6rem;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <nav class="navbar col-12">
+        <a class="navbar-brand" href="#">
+            <img src="images/website_title_image.png" alt="" width="30" height="24" class="d-inline-block align-text-top"> CodeSCRATCH
+        </a>
+        <div class="d-flex">
+            <button type="button" id="login-btn" class="btn btn-md  btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+            <button type="button" class="btn btn-md btn-warning" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-primary bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">Menu</span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="navnav">
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Code Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categories
+                                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Student</a></li>
+                            <li><a class="dropdown-item" href="#">Teacher</a></li>
+                            <li><a class="dropdown-item" href="#">IT Professional</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Upcoming Competitions</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        </div>
+    </nav>
+
+    <!-- login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="loginModalLabel">Login to continue...</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mb-1">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-primary py-2 col-12">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- signup Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="signupModalLabel">Signup & join us today!</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <div class="row g-3">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+
+                        </div>
+                        <div class="input-group mb-3 my-4">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Contact No.</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your phone or landline no.">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="abcd$1324">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Enter password again...">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Back</button> -->
+                    <button type="button" class="btn btn-primary col-12 py-2">Signup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-success bg-dark">
+        <div class="container1">
+            <a class="navbar-brand1" href="#">
+                <p>Signup and start exploring the world of coding through 100+ tutorials and to unlimited practice problems.
+                </p>
+                <button type="button" class="btn btn-warning">START NOW</button>
+            </a>
+        </div>
+    </nav>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/3bg3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/2bg2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/1bg1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/4bg4.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <hr>
+
+    <!-- The Card templates -->
+    <div class="container my-4 p-4">
+        <div class="container-card-item">
+            <!-- The mock interview -->
+            <div class="card" style="width: 18rem;">
+                <img src="images/1bg1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">mock interview</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias iure vitae asperiores optio totam?</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <!-- Basic programming -->
+            <div class="card" style="width: 18rem;">
+                <img src="images/2bg2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Basic Programming</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias iure vitae asperiores optio totam?</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <!-- Algorithms -->
+            <div class="card" style="width: 18rem;">
+                <img src="images/4bg4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Algorithms</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias iure vitae asperiores optio totam?</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <!-- Data Structures -->
+            <div class="card" style="width: 18rem;">
+                <img src="images/2bg2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Data Structures </h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias iure vitae asperiores optio totam?</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <!--Mathematics-->
+            <div class="card" style="width: 18rem;">
+                <img src="images/4bg4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Mathematics</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias iure vitae asperiores optio totam?</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <!--Placement level -->
+            <div class="card" style="width: 18rem;">
+                <img src="images/2bg2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Placement level</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <!-- Aptitude preparations -->
+            <div class="card" style="width: 18rem;">
+                <img src="images/2bg2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Aptitude preparations </h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias iure vitae asperiores optio totam?</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <!-- Upcoming web sessions -->
+            <div class="card card bg-light" style="width: 18rem;">
+                <img src="images/2bg2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Upcoming web sessions</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis molestias iure vitae asperiores optio totam?</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- the footer -->
+
+    <div class="col-12 text-center">
+        <div class="card-header">
+            &copy; Copyright 2021
+        </div>
+        <div class="card-body">
+            <h4 class="card-title"> ALL RIGHTS RESERVED</h4>
+            <p class="card-text">Best Platform to show your abilities with over 100+ tutorials and with the traffic over 1lakh.</p>
+            <a href="#" class="btn btn-primary">JOIN OUR COMMUNITY</a>
+        </div>
+        <div class="card-footer text-muted">
+            2 days ago
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script>
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
